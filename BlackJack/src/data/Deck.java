@@ -37,6 +37,8 @@ public class Deck {
         
         Card lastCard = cards.get(cards.size() - 1);
         
+        cards.remove(lastCard);
+        
         return lastCard;
         
     }

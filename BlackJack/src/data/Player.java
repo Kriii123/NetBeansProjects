@@ -49,5 +49,9 @@ public class Player {
         return totalPoints;
         
     }
+    public ArrayList<Card> getCards(){
+        return this.cards;
+    }
+    
     
 }
